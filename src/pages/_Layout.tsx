@@ -8,8 +8,8 @@ interface Props {
 const Layout = (props: Props) => {
   return (
     <div className="bg-pastel-black text-whitesmoke w-full min-h-screen">
-      <NavBar />
       {props.children}
+      <NavBar />
       <Footer />
     </div>
   )

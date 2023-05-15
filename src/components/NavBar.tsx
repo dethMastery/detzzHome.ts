@@ -23,7 +23,7 @@ const NavBar = () => {
   }
 
   return (
-    <div className="w-full flex flex-row bg-overlay">
+    <div className="w-full flex flex-row bg-overlay fixed top-0">
       <div className="w-full py-4 text-left">
         <a href="/" className={NAV_BUTTON}>
           Suphakit P.

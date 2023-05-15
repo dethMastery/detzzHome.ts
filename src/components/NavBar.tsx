@@ -1,6 +1,7 @@
 import React from "react"
 import TAILWIND_CLASS from "../constants/tailwinds.class"
 import { useNavigate } from "react-router-dom"
+import DropDown from "./Dropdown"
 
 const NavBar = () => {
   const NAV_BUTTON = `${TAILWIND_CLASS.LINK} text-whitesmoke no-underline p-4`
@@ -33,6 +34,7 @@ const NavBar = () => {
         <button name="about" className={(page == 'about') ? `${NAV_BUTTON} ${BUTTON_ACTIVE}` : NAV_BUTTON} onClick={linkHandling}>
           About
         </button>
+        <DropDown />
       </div>
     </div>
   )

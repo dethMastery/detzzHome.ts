@@ -5,7 +5,37 @@
       "profileIMG": "https://avatars.githubusercontent.com/u/25049577?v=4",
       "name": "Suphakit P.",
       "quote": "Just a Full-Stack Dev. w/ some Music Composing Skill 🎶",
-      "contact_email": "me@suphakit.net"
+      "contact": "#contact"
     }
-  }
+  },
+  "Contact": [
+    {
+      "id": 0,
+      "name": "contact_link.fb",
+      "link": "https://fb.com/detzz.in.th/",
+      "bg": "bg-fb",
+      "color": "text-whitesmoke"
+    },
+    {
+      "id": 1,
+      "name": "contact_link.ig",
+      "link": "https://instagram.com/detzz.th",
+      "bg": "bg-ig",
+      "color": "text-whitesmoke"
+    },
+    {
+      "id": 2,
+      "name": "contact_link.tw",
+      "link": "https://twitter.com/georgeKdeterk",
+      "bg": "bg-twitter",
+      "color": "text-whitesmoke"
+    },
+    {
+      "id": 3,
+      "name": "contact_link.email",
+      "link": "mailto:me@suphakit.net",
+      "bg": "bg-living-coral",
+      "color": "text-whitesmoke"
+    }
+  ]
 }

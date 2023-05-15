@@ -1,7 +1,7 @@
 const TAILWIND_CLASS = {
   CONTAINER: 'container mx-auto min-h-screen',
   HEADER_BOX:
-    'w-full h-screen flex flex-row item-center justify-center text-center',
+    'w-full h-screen flex flex-row items-center justify-center text-center',
   LINK: 'underline duration-300 hover:opacity-60 hover:no-underline',
   HOVER_SCALE: 'duration-300 hover:scale-85 hover:opacity-60',
   BUTTON:

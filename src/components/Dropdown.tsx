@@ -14,7 +14,11 @@ const DROPDOWN_CLASS = {
   ACTIVE_BUTTON: 'w-auto inline-block p-4 opacity-60 m-0',
 }
 
-const DropDown = () => {
+interface Props {
+  title: string
+}
+
+const DropDown = (props: Props) => {
   const [onUsage, setUsage] = useState<string>()
 
   const mouseHandling = (event: React.MouseEvent<HTMLButtonElement>) => {
@@ -27,7 +31,7 @@ const DropDown = () => {
   return (
     <>
       <Menu as="div" className="relative inline-block">
-        <Menu.Button className={DROPDOWN_CLASS.NAV_BUTTON}>🌐 LANG</Menu.Button>
+        <Menu.Button className={DROPDOWN_CLASS.NAV_BUTTON}>🌐 {props.title}</Menu.Button>
         <Transition
           enter="transition duration-100 ease-out"
           enterFrom="transform scale-95 opacity-0"
@@ -49,7 +53,7 @@ const DropDown = () => {
                   TAILWIND_CLASS.HOVER_SCALE
                 )}
               >
-                🇬🇧 ENG
+                🇬🇧 EN
               </button>
             </Menu.Item>
             <Menu.Item>
@@ -64,7 +68,7 @@ const DropDown = () => {
                   TAILWIND_CLASS.HOVER_SCALE
                 )}
               >
-                🇹🇭 THA
+                🇹🇭 TH
               </button>
             </Menu.Item>
           </Menu.Items>

@@ -1,6 +1,7 @@
 import React from "react"
 import TAILWIND_CLASS from "../constants/tailwinds.class"
 import { useNavigate } from "react-router-dom"
+import { useTranslation } from "react-i18next"
 import DropDown from "./Dropdown"
 
 const NavBar = () => {
@@ -10,6 +11,7 @@ const NavBar = () => {
   const [page, setPage] = React.useState<string | null>()
 
   const navigate = useNavigate()
+  const {t} = useTranslation()
 
   React.useEffect(() => {
     const localPage = localStorage.getItem('page')
@@ -32,9 +34,9 @@ const NavBar = () => {
       </div>
       <div className="w-full text-right">
         <button name="about" className={(page == 'about') ? `${NAV_BUTTON} ${BUTTON_ACTIVE}` : NAV_BUTTON} onClick={linkHandling}>
-          About
+          {t('nav_about')}
         </button>
-        <DropDown />
+        <DropDown title={t('lang')} />
       </div>
     </div>
   )

@@ -1,7 +1,7 @@
 import './App.css'
 
-import { Head, Repo, Member, Contact, Footer } from './components/old_components/component'
-import { MusicBox } from './components/old_components/music'
+import { Head, Repo, Member, Contact, Footer } from './component'
+import { MusicBox } from './components/music'
 
 function App() {
   return (

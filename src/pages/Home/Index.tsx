@@ -8,12 +8,12 @@ const Home = () => {
   return (
     <>
       <div
-        className={TAILWIND_CLASS.HEADER_BOX}
+        className={`${TAILWIND_CLASS.HEADER_BOX}`}
         style={{ background: `url(${profileData.Index.bg})` }}
         id='Index'
       >
         <div
-          className={`${TAILWIND_CLASS.MIDDLE_FLEX} bg-overlay w-full h-full`}
+          className={`${TAILWIND_CLASS.MIDDLE_FLEX} bg-overlay w-full h-full backdrop-blur-[5px]`}
         >
           <div className="w-[20rem] h-auto bg-whitesmoke text-pastel-black rounded">
             <div

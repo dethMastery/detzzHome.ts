@@ -61,12 +61,6 @@
           "bg": "#214CE4"
         },
         {
-          "id": 2,
-          "name": "CSS3",
-          "color": "text-whitesmoke",
-          "bg": "#214CE4"
-        },
-        {
           "id": 3,
           "name": "Tailwind.css",
           "color": "text-whitesmoke",

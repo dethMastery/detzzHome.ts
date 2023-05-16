@@ -1,0 +1,21 @@
+{
+  "about_heading": "About me",
+  "about_edu_profile": "Educational Profile",
+  "about_edu": {
+    "school": {
+      "ds": "Darasamutr Sriracha School",
+      "src": "Sriracha School",
+      "stbuu": "Piboonbumpen Demonstration School",
+      "uop": "University of Phayao"
+    },
+    "class": {
+      "sci": "Sci - Math",
+      "comp": "Computer Engineering"
+    }
+  },
+  "about_skills": {
+    "heading": "Skills",
+    "programming": "Programming (Tech Stats)",
+    "composing": "Music Composing"
+  }
+}

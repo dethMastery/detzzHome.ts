@@ -12,7 +12,8 @@ const TAILWIND_CLASS = {
     XL: 'text-xl py-4',
     L: 'text-l py-2',
   },
-  MIDDLE_FLEX: 'flex flex-col items-center justify-center text-center'
+  MIDDLE_FLEX: 'flex flex-col items-center justify-center text-center',
+  BG_CENTER: '!bg-center !bg-cover !bg-no-repeat'
 }
 
 export default TAILWIND_CLASS

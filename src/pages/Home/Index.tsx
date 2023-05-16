@@ -74,10 +74,10 @@ const Home = () => {
                         <h2 className={`${TAILWIND_CLASS.HEADING.XXL} !py-2`}>
                           {t(edu.name)}
                         </h2>
-                        <p>{edu.grade}</p>
+                        <p>{t(edu.grade)}</p>
                       </div>
                       <div className="p-4 bg-[#c8c8c8] rounded-b">
-                        {edu.year}
+                        {t(edu.year)}
                       </div>
                     </div>
                   )

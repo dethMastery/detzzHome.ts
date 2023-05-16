@@ -11,6 +11,20 @@
     "class": {
       "sci": "Sci - Math",
       "comp": "Computer Engineering"
+    },
+    "grade": {
+      "id1": "Kindergarten - Grade 6",
+      "id2": "Grade 7 - 9",
+      "id3": "Grade 10",
+      "id4": "Grade 11 - 12",
+      "id5": "Bachelor's degree"
+    },
+    "year": {
+      "id1": "2005 - 2014",
+      "id2": "2014 - 2018",
+      "id3": "2018 - 2019",
+      "id4": "2019 - April 2021",
+      "id5": "May 2021 - Present"
     }
   },
   "about_skills": {

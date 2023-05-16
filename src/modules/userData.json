@@ -13,37 +13,37 @@
       {
         "id": 0,
         "name": "about_edu.school.ds",
-        "year": "2005 - 2014",
+        "year": "about_edu.year.id1",
         "class": "",
-        "grade": "Kintergarden - Grade 6"
+        "grade": "about_edu.grade.id1"
       },
       {
         "id": 1,
         "name": "about_edu.school.src",
-        "year": "2014 - 2018",
+        "year": "about_edu.year.id2",
         "class": "MEP",
-        "grade": "Grade 7 - 9"
+        "grade": "about_edu.grade.id2"
       },
       {
         "id": 2,
         "name": "about_edu.school.stbuu",
-        "year": "2018 - 2019",
+        "year": "about_edu.year.id3",
         "class": "about_edu.class.sci",
-        "grade": "Grade 10"
+        "grade": "about_edu.grade.id3"
       },
       {
         "id": 3,
         "name": "about_edu.school.ds",
-        "year": "2019 - April 2021",
+        "year": "about_edu.year.id4",
         "class": "about_edu.class.sci",
-        "grade": "Grade 11 - 12"
+        "grade": "about_edu.grade.id4"
       },
       {
         "id": 4,
         "name": "about_edu.school.uop",
-        "year": "May 2021 - Present",
+        "year": "about_edu.year.id5",
         "class": "about_edu.class.comp",
-        "grade": "Bachelor's degree"
+        "grade": "about_edu.grade.id5"
       }
     ],
     "skills": {

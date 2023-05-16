@@ -1,5 +1,6 @@
 const ROUTES = {
-  HOME: '/'
+  HOME: '/',
+  JOINED_EVENTS: '/events'
 }
 
 export default ROUTES

@@ -184,5 +184,26 @@
       "bg": "bg-living-coral",
       "color": "text-whitesmoke"
     }
-  ]
+  ],
+  "Events": {
+    "heading": "events_heading",
+    "topic": {
+      "events": "events_joinEvents",
+      "cert": "events_certs"
+    },
+    "joined": [
+      {
+        "name": "TESA Top Gun Rally #16",
+        "desp": "5-10 Sept. 2022 @ Chitralada Technology Institute",
+        "image": "https://ksrc.suphakit.net/1662866532553/000001.jpg"
+      }
+    ],
+    "cert": [
+      {
+        "name": "TESA Top Gun Rally #16",
+        "desp": "Participate in TESA Top Gun Rally #16",
+        "image": "https://media.discordapp.net/attachments/967025462490591332/1107917398524297236/TESA-CERT.jpg"
+      }
+    ]
+  }
 }

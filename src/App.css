@@ -4,3 +4,8 @@
   animation-name: startingUP;
   animation-duration: 2s;
 }
+
+.callIn {
+  animation-name: eventCallIn;
+  animation-duration: 2s;
+}

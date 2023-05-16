@@ -13,14 +13,14 @@
       "id": 0,
       "name": "contact_link.fb",
       "link": "https://fb.com/detzz.in.th/",
-      "bg": "bg-fb",
+      "bg": "bg-facebook",
       "color": "text-whitesmoke"
     },
     {
       "id": 1,
       "name": "contact_link.ig",
       "link": "https://instagram.com/detzz.th",
-      "bg": "bg-ig",
+      "bg": "bg-instagram",
       "color": "text-whitesmoke"
     },
     {

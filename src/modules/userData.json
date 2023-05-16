@@ -8,6 +8,159 @@
       "contact": "#contact"
     }
   },
+  "About": {
+    "eduProfile": [
+      {
+        "id": 0,
+        "name": "about_edu.school.ds",
+        "year": "2005 - 2014",
+        "class": "",
+        "grade": "Kintergarden - Grade 6"
+      },
+      {
+        "id": 1,
+        "name": "about_edu.school.src",
+        "year": "2014 - 2018",
+        "class": "MEP",
+        "grade": "Grade 7 - 9"
+      },
+      {
+        "id": 2,
+        "name": "about_edu.school.stbuu",
+        "year": "2018 - 2019",
+        "class": "about_edu.class.sci",
+        "grade": "Grade 10"
+      },
+      {
+        "id": 3,
+        "name": "about_edu.school.ds",
+        "year": "2019 - April 2021",
+        "class": "about_edu.class.sci",
+        "grade": "Grade 11 - 12"
+      },
+      {
+        "id": 4,
+        "name": "about_edu.school.uop",
+        "year": "May 2021 - Present",
+        "class": "about_edu.class.comp",
+        "grade": "Bachelor's degree"
+      }
+    ],
+    "skills": {
+      "Programming": [
+        {
+          "id": 0,
+          "name": "HTML5",
+          "color": "text-whitesmoke",
+          "bg": "#dc4a25"
+        },
+        {
+          "id": 1,
+          "name": "CSS3",
+          "color": "text-whitesmoke",
+          "bg": "#214CE4"
+        },
+        {
+          "id": 2,
+          "name": "CSS3",
+          "color": "text-whitesmoke",
+          "bg": "#214CE4"
+        },
+        {
+          "id": 3,
+          "name": "Tailwind.css",
+          "color": "text-whitesmoke",
+          "bg": "#37bcf8"
+        },
+        {
+          "id": 4,
+          "name": "Bootstrap",
+          "color": "text-whitesmoke",
+          "bg": "#6e08f4"
+        },
+        {
+          "id": 5,
+          "name": "PHP",
+          "color": "text-whitesmoke",
+          "bg": "#787cb4"
+        },
+        {
+          "id": 6,
+          "name": "React.js",
+          "color": "text-twitter",
+          "bg": "#222222"
+        },
+        {
+          "id": 7,
+          "name": "Vue.js",
+          "color": "text-whitesmoke",
+          "bg": "#3fb984"
+        },
+        {
+          "id": 8,
+          "name": "Svelte",
+          "color": "text-whitesmoke",
+          "bg": "#ff3b00"
+        },
+        {
+          "id": 9,
+          "name": "express.js",
+          "color": "text-whitesmoke",
+          "bg": "#828282"
+        },
+        {
+          "id": 10,
+          "name": "Hexo",
+          "color": "text-whitesmoke",
+          "bg": "#0584ce"
+        },
+        {
+          "id": 11,
+          "name": "Typescript",
+          "color": "text-whitesmoke",
+          "bg": "#2e78c7"
+        },
+        {
+          "id": 12,
+          "name": "Javascript",
+          "color": "text-pastel-black",
+          "bg": "#f7e017"
+        }
+      ],
+      "Composing": [
+        {
+          "id": 0,
+          "name": "Producing",
+          "color": "text-whitesmoke",
+          "bg": "bg-living-coral"
+        },
+        {
+          "id": 1,
+          "name": "Vocaling",
+          "color": "text-whitesmoke",
+          "bg": "bg-living-coral"
+        },
+        {
+          "id": 2,
+          "name": "Mastering",
+          "color": "text-whitesmoke",
+          "bg": "bg-living-coral"
+        },
+        {
+          "id": 3,
+          "name": "Composing",
+          "color": "text-whitesmoke",
+          "bg": "bg-living-coral"
+        },
+        {
+          "id": 4,
+          "name": "Arranging",
+          "color": "text-whitesmoke",
+          "bg": "bg-living-coral"
+        }
+      ]
+    }
+  },
   "Contact": [
     {
       "id": 0,

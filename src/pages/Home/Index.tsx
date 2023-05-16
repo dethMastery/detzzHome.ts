@@ -11,6 +11,7 @@ const Home = () => {
 
   return (
     <div className="pb-16">
+      {/* Top Card */}
       <div
         className={`${TAILWIND_CLASS.HEADER_BOX} !bg-fixed !bg-center !bg-cover !bg-no-repeat`}
         style={{ background: `url(${profileData.Index.bg})` }}
@@ -34,6 +35,7 @@ const Home = () => {
               <p className="w-[80%] mx-auto mb-4 text-[#777a7a]">
                 {profileData.Index.card.quote}
               </p>
+              <img src="https://spotify-recently-played-readme.vercel.app/api?user=5zl2fr8q61bys24qbjwzgsriv&count=1" alt="Recently played" />
             </div>
             <a
               href={profileData.Index.card.contact}

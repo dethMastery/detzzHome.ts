@@ -8,19 +8,166 @@
       "contact": "#contact"
     }
   },
+  "About": {
+    "eduProfile": [
+      {
+        "id": 0,
+        "name": "about_edu.school.ds",
+        "year": "about_edu.year.id1",
+        "class": "",
+        "grade": "about_edu.grade.id1"
+      },
+      {
+        "id": 1,
+        "name": "about_edu.school.src",
+        "year": "about_edu.year.id2",
+        "class": "MEP",
+        "grade": "about_edu.grade.id2"
+      },
+      {
+        "id": 2,
+        "name": "about_edu.school.stbuu",
+        "year": "about_edu.year.id3",
+        "class": "about_edu.class.sci",
+        "grade": "about_edu.grade.id3"
+      },
+      {
+        "id": 3,
+        "name": "about_edu.school.ds",
+        "year": "about_edu.year.id4",
+        "class": "about_edu.class.sci",
+        "grade": "about_edu.grade.id4"
+      },
+      {
+        "id": 4,
+        "name": "about_edu.school.uop",
+        "year": "about_edu.year.id5",
+        "class": "about_edu.class.comp",
+        "grade": "about_edu.grade.id5"
+      }
+    ],
+    "skills": {
+      "Programming": [
+        {
+          "id": 0,
+          "name": "HTML5",
+          "color": "text-whitesmoke",
+          "bg": "#dc4a25"
+        },
+        {
+          "id": 1,
+          "name": "CSS3",
+          "color": "text-whitesmoke",
+          "bg": "#214CE4"
+        },
+        {
+          "id": 3,
+          "name": "Tailwind.css",
+          "color": "text-whitesmoke",
+          "bg": "#37bcf8"
+        },
+        {
+          "id": 4,
+          "name": "Bootstrap",
+          "color": "text-whitesmoke",
+          "bg": "#6e08f4"
+        },
+        {
+          "id": 5,
+          "name": "PHP",
+          "color": "text-whitesmoke",
+          "bg": "#787cb4"
+        },
+        {
+          "id": 6,
+          "name": "React.js",
+          "color": "text-twitter",
+          "bg": "#222222"
+        },
+        {
+          "id": 7,
+          "name": "Vue.js",
+          "color": "text-whitesmoke",
+          "bg": "#3fb984"
+        },
+        {
+          "id": 8,
+          "name": "Svelte",
+          "color": "text-whitesmoke",
+          "bg": "#ff3b00"
+        },
+        {
+          "id": 9,
+          "name": "express.js",
+          "color": "text-whitesmoke",
+          "bg": "#828282"
+        },
+        {
+          "id": 10,
+          "name": "Hexo",
+          "color": "text-whitesmoke",
+          "bg": "#0584ce"
+        },
+        {
+          "id": 11,
+          "name": "Typescript",
+          "color": "text-whitesmoke",
+          "bg": "#2e78c7"
+        },
+        {
+          "id": 12,
+          "name": "Javascript",
+          "color": "text-pastel-black",
+          "bg": "#f7e017"
+        }
+      ],
+      "Composing": [
+        {
+          "id": 0,
+          "name": "Producing",
+          "color": "text-whitesmoke",
+          "bg": "bg-living-coral"
+        },
+        {
+          "id": 1,
+          "name": "Vocaling",
+          "color": "text-whitesmoke",
+          "bg": "bg-living-coral"
+        },
+        {
+          "id": 2,
+          "name": "Mastering",
+          "color": "text-whitesmoke",
+          "bg": "bg-living-coral"
+        },
+        {
+          "id": 3,
+          "name": "Composing",
+          "color": "text-whitesmoke",
+          "bg": "bg-living-coral"
+        },
+        {
+          "id": 4,
+          "name": "Arranging",
+          "color": "text-whitesmoke",
+          "bg": "bg-living-coral"
+        }
+      ]
+    }
+  },
   "Contact": [
     {
       "id": 0,
       "name": "contact_link.fb",
       "link": "https://fb.com/detzz.in.th/",
-      "bg": "bg-fb",
+      "bg": "bg-facebook",
       "color": "text-whitesmoke"
     },
     {
       "id": 1,
       "name": "contact_link.ig",
       "link": "https://instagram.com/detzz.th",
-      "bg": "bg-ig",
+      "bg": "bg-instagram",
       "color": "text-whitesmoke"
     },
     {
@@ -37,5 +184,31 @@
       "bg": "bg-living-coral",
       "color": "text-whitesmoke"
     }
-  ]
+  ],
+  "Events": {
+    "heading": "events_heading",
+    "desp": "events_desp",
+    "topic": {
+      "events": "events_joinEvents",
+      "cert": "events_certs"
+    },
+    "joined": [
+      {
+        "id": 0,
+        "name": "TESA Top Gun Rally #16",
+        "desp": "An Competitve event @ Chitralada Technology Institute",
+        "date": "5-10 Sept. 2022",
+        "image": "https://ksrc.suphakit.net/1662866532553/000001.jpg"
+      }
+    ],
+    "cert": [
+      {
+        "id": 0,
+        "name": "TESA Top Gun Rally #16",
+        "desp": "Participate in TESA Top Gun Rally #16",
+        "date": "5-10 Sept. 2022",
+        "image": "https://media.discordapp.net/attachments/967025462490591332/1107917398524297236/TESA-CERT.jpg"
+      }
+    ]
+  }
 }

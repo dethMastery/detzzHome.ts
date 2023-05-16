@@ -6,6 +6,7 @@
 
 * {
   font-family: 'IBM Plex Sans Thai', sans-serif;
+  scroll-behavior: smooth;
 }
 
 body {

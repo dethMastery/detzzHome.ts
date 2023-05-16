@@ -10,7 +10,7 @@ const DROPDOWN_CLASS = {
     'inline-block w-auto p-4 duration-300 hover:opacity-60 hover:bg-[#4B4D4D]',
   CONTAINER:
     'bg-overlay text-whitesmoke w-auto mr-0 w-[10rem] rounded-bl absolute right-0',
-  BUTTON: 'w-auto inline-block p-4 hover:opacity-60',
+  BUTTON: 'w-auto inline-block p-4 hover:opacity-60 text-center',
   ACTIVE_BUTTON: 'w-auto inline-block p-4 opacity-60 m-0',
 }
 

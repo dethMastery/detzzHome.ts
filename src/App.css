@@ -1,0 +1,6 @@
+@import url(./style/animation.css);
+
+.fadeIn {
+  animation-name: startingUP;
+  animation-duration: 2s;
+}

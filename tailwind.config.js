@@ -9,9 +9,9 @@ export default {
       'pastel-black': '#2e2f2f',
       'whitesmoke': '#f5f5f5',
       'living-coral': '#fe6e61',
-      'fb': '#3a5998',
+      'facebook': '#3a5998',
       'twitter': '#1C9BEF',
-      'ig': '#AC21D2',
+      'instagram': '#AC21D2',
       'overlay': 'rgba(0,0,0,0.4)',
     },
     borderRadius: {

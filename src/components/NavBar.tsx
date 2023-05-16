@@ -33,8 +33,8 @@ const NavBar = () => {
         </a>
       </div>
       <div className="w-full text-right">
-        <button name="#about" className={(page == 'about') ? `${NAV_BUTTON} ${BUTTON_ACTIVE}` : NAV_BUTTON} onClick={linkHandling}>
-          {t('nav_about')}
+        <button name="events" className={(page == 'events') ? `${NAV_BUTTON} ${BUTTON_ACTIVE}` : NAV_BUTTON} onClick={linkHandling}>
+          {t('nav_events')}
         </button>
         <DropDown title={t('lang')} />
       </div>
